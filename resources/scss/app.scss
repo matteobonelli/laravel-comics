@@ -1,3 +1,4 @@
+@use './partials/variables' as *;
 @import '~bootstrap/scss/bootstrap';
 
 img {
@@ -5,4 +6,40 @@ img {
     height: 200px;
     object-fit: cover;
     object-position: top;
+}
+
+.jumbo-container {
+    height: 400px;
+    background-image: url('../img/jumbotron.jpg')
+}
+
+header {
+    img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .nav-link {
+        color: black;
+        font-weight: bold;
+    }
+
+    .nav-underline {
+        color: #0282f9 !important;
+    }
+}
+
+main {
+    .btn {
+        background-color: $brand_primary;
+        color: white;
+        font-size: 20px;
+        border-radius: 0;
+        width: 250px;
+
+        :hover {
+            opacity: 1;
+        }
+    }
+
 }
