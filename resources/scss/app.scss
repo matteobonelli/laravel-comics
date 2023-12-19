@@ -143,3 +143,66 @@ $fa-font-path: "../webfonts" !default;
         padding-right: 10px;
     }
 }
+
+#footer-first {
+    .dc-bg {
+        background-image: url('../img/footer-bg.jpg');
+        background-size: cover;
+    }
+
+    h5 {
+        color: white;
+    }
+
+    .container {
+        position: relative;
+    }
+
+    img {
+        position: absolute;
+        top: -120px;
+        right: 0;
+        z-index: 1;
+    }
+
+    ul {
+        padding: 0;
+        font-family: 'Open Sans', sans-serif;
+
+        a {
+            color: #959595;
+            text-decoration: none;
+            font-size: 12px;
+
+            &:hover {
+                color: white;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+#footer-end {
+
+    background-color: #303030;
+    padding: 35px 0px;
+    position: relative;
+    z-index: 10;
+
+    .btn {
+        color: white;
+        font-size: 20px;
+        border: 2px solid #0282f9;
+        border-radius: 0;
+    }
+
+
+    ul {
+        list-style: none;
+        font-size: 20px;
+
+        .text-uppercase {
+            color: #0282f9
+        }
+    }
+}

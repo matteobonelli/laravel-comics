@@ -189,6 +189,156 @@ return [
             'url' => '#',
             'active' => false
         ],
+    ],
+    'dcComics' => [
+        [
+            'text' => 'Characters',
+            'url' => '#',
+            'active' => false
+        ],
+        [
+            'text' => 'Comics',
+            'url' => '#',
+            'active' => false
+        ],
+        [
+            'text' => 'Movies',
+            'url' => '#',
+            'active' => false
+        ],
+        [
+            'text' => 'TV',
+            'url' => '#',
+            'active' => false
+        ],
+        [
+            'text' => 'Games',
+            'url' => '#',
+            'active' => false
+        ],
+        [
+            'text' => 'Videos',
+            'url' => '#',
+            'active' => false
+        ],
+        [
+            'text' => 'News',
+            'url' => '#',
+            'active' => false
+        ],
+    ],
+    'shop' => [
+        [
+            'text' => 'Shop DC',
+            'url' => '#',
+            'active' => false
+        ],
+        [
+            'text' => 'Shop DC Collectibles',
+            'url' => '#',
+            'active' => false
+        ],
+    ],
+    'dc' => [
+        [
+            'text' => 'Terms of Use',
+            'url' => '#',
+            'active' => false
+        ],
+        [
+            'text' => 'Privacy policy(New)',
+            'url' => '#',
+            'active' => false
+        ],
+        [
+            'text' => 'Ad Choices',
+            'url' => '#',
+            'active' => false
+        ],
+        [
+            'text' => 'Advertising',
+            'url' => '#',
+            'active' => false
+        ],
+        [
+            'text' => 'Jobs',
+            'url' => '#',
+            'active' => false
+        ],
+        [
+            'text' => 'Subscriptions',
+            'url' => '#',
+            'active' => false
+        ],
+        [
+            'text' => 'Talent Workshops',
+            'url' => '#',
+            'active' => false
+        ],
+        [
+            'text' => 'CPSC Certificates',
+            'url' => '#',
+            'active' => false
+        ],
+        [
+            'text' => 'Ratings',
+            'url' => '#',
+            'active' => false
+        ],
+        [
+            'text' => 'Shop Help',
+            'url' => '#',
+            'active' => false
+        ],
+        [
+            'text' => 'Contact Us',
+            'url' => '#',
+            'active' => false
+        ],
+    ],
+    'sites' => [
+        [
+            'text' => 'DC',
+            'url' => '#',
+            'active' => false
+        ],
+        [
+            'text' => 'MAD Magazine',
+            'url' => '#',
+            'active' => false
+        ],
+        [
+            'text' => 'DC Kids',
+            'url' => '#',
+            'active' => false
+        ],
+        [
+            'text' => 'DC Universe',
+            'url' => '#',
+            'active' => false
+        ],
+        [
+            'text' => 'DC Power Visa',
+            'url' => '#',
+            'active' => false
+        ],
+    ],
+    'socials' => [
+        [
+            'image' => 'resources/img/footer-facebook.png'
+        ],
+        [
+            'image' => 'resources/img/footer-twitter.png'
+        ],
+        [
+            'image' => 'resources/img/footer-youtube.png'
+        ],
+        [
+            'image' => 'resources/img/footer-pinterest.png'
+        ],
+        [
+            'image' => 'resources/img/footer-periscope.png'
+        ],
     ]
 ];
 
