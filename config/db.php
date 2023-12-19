@@ -110,6 +110,58 @@ return [
             "sale_date" => "2019-04-10",
             "type" => "graphic novel",
         ]
+    ],
+    'navbar' => [
+        [
+            'text' => 'Characters',
+            'url' => '#',
+            'active' => false
+        ],
+        [
+            'text' => 'Comics',
+            'url' => 'comics.index',
+            'active' => true
+        ],
+        [
+            'text' => 'Movies',
+            'url' => '#',
+            'active' => false
+        ],
+        [
+            'text' => 'Tv',
+            'url' => '#',
+            'active' => false
+        ],
+        [
+            'text' => 'Games',
+            'url' => '#',
+            'active' => false
+        ],
+        [
+            'text' => 'Collectibles',
+            'url' => '#',
+            'active' => false
+        ],
+        [
+            'text' => 'Videos',
+            'url' => '#',
+            'active' => false
+        ],
+        [
+            'text' => 'Fans',
+            'url' => '#',
+            'active' => false
+        ],
+        [
+            'text' => 'News',
+            'url' => '#',
+            'active' => false
+        ],
+        [
+            'text' => 'Shop',
+            'url' => '#',
+            'active' => false
+        ],
     ]
 ];
 

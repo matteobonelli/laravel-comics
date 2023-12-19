@@ -1,19 +1,14 @@
 @use './partials/variables' as *;
 @import '~bootstrap/scss/bootstrap';
 
-img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    object-position: top;
-}
+
 
 .jumbo-container {
     height: 400px;
     background-image: url('../img/jumbotron.jpg')
 }
 
-header {
+#mainheader {
     img {
         width: 80px;
         height: 80px;
@@ -24,7 +19,11 @@ header {
         font-weight: bold;
     }
 
-    .nav-underline {
+    .nav-link:hover {
+        color: #0282f9 !important;
+    }
+
+    .nav-link.active {
         color: #0282f9 !important;
     }
 }
@@ -36,10 +35,29 @@ main {
         font-size: 20px;
         border-radius: 0;
         width: 250px;
-
-        :hover {
-            opacity: 1;
-        }
     }
 
+    .btn:hover {
+        background-color: $brand_primary;
+        color: white;
+        opacity: 0.7;
+    }
+
+}
+
+#comics {
+    a {
+        text-decoration: none !important;
+    }
+
+    img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        object-position: top;
+    }
+}
+
+#comic {
+    img {}
 }
