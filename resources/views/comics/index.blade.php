@@ -4,7 +4,8 @@
 
 @section('content')
 <main class="bg-dark " id='comics'>
-    <div class="container py-5">
+    <div class="container main-content py-5">
+        <div class="btn current-series text-uppercase text-light">Current series</div>
         <div class="row">
             @foreach ($comics as $key => $comic)
             <div class="col-12 col-md-2 mb-4">

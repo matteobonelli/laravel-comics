@@ -118,11 +118,6 @@ return [
             'active' => false
         ],
         [
-            'text' => 'Comics',
-            'url' => 'comics.index',
-            'active' => true
-        ],
-        [
             'text' => 'Movies',
             'url' => '#',
             'active' => false
@@ -159,6 +154,38 @@ return [
         ],
         [
             'text' => 'Shop',
+            'url' => '#',
+            'active' => false
+        ],
+    ],
+    'catalog' => [
+        [
+            'text' => 'Digital Comics',
+            'image' => 'resources/img/buy-comics-digital-comics.png',
+            'url' => '#',
+            'active' => false
+        ],
+        [
+            'text' => 'DC Merchandise',
+            'image' => 'resources/img/buy-comics-merchandise.png',
+            'url' => '#',
+            'active' => false
+        ],
+        [
+            'text' => 'Subscription',
+            'image' => 'resources/img/buy-comics-subscriptions.png',
+            'url' => '#',
+            'active' => false
+        ],
+        [
+            'text' => 'Comic Shop Locator',
+            'image' => 'resources/img/buy-comics-shop-locator.png',
+            'url' => '#',
+            'active' => false
+        ],
+        [
+            'text' => 'Dc Power Visa',
+            'image' => 'resources/img/buy-dc-power-visa.svg',
             'url' => '#',
             'active' => false
         ],

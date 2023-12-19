@@ -10,7 +10,7 @@
                 
                 <img src="{{$comic['thumb']}}" :alt="{{$comic['title']}}" class="mb-3">
                 <h2 class="text-uppercase text-light">{{ $comic['title'] }}</h2>
-                <h2 class="text-uppercase text-light">{{ $comic['series'] }}</h2>
+                <h5 class="text-uppercase text-light">{{ $comic['series'] }}</h5>
                 <p>
                     {{$comic['description']}}
                 </p>
